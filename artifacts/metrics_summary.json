@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-04-15T07:02:18.930048+00:00",
+  "ticker": "GC=F",
+  "date_range": {
+    "start": "2022-03-07",
+    "end": "2026-04-15"
+  },
+  "raw_rows": 1033,
+  "model_rows": 978,
+  "best_model": "Naive (No-Change)",
+  "forecast_model": "Ridge",
+  "validation_results": [
+    {
+      "Model": "Naive (No-Change)",
+      "MAE": 30.851698687287428,
+      "RMSE": 41.00950940085177,
+      "MAPE_%": 0.9497210009094759,
+      "R2": 0.9536927522729316,
+      "Directional_Accuracy_%": 57.14285714285714
+    },
+    {
+      "Model": "Ridge",
+      "MAE": 31.217723858305494,
+      "RMSE": 42.207084735412636,
+      "MAPE_%": 0.962376768355664,
+      "R2": 0.9509486986013997,
+      "Directional_Accuracy_%": 49.65986394557823
+    },
+    {
+      "Model": "RandomForest",
+      "MAE": 32.67512519197405,
+      "RMSE": 43.962413871095414,
+      "MAPE_%": 1.0057800658379918,
+      "R2": 0.946783919713785,
+      "Directional_Accuracy_%": 40.136054421768705
+    }
+  ],
+  "test_results": [
+    {
+      "Model": "Naive (No-Change)",
+      "MAE": 64.09798509247452,
+      "RMSE": 96.49792670759214,
+      "MAPE_%": 1.4120037413074544,
+      "R2": 0.9542037838932068,
+      "Directional_Accuracy_%": 60.544217687074834
+    },
+    {
+      "Model": "Ridge",
+      "MAE": 65.47800005981668,
+      "RMSE": 97.65013109561768,
+      "MAPE_%": 1.4433290217128147,
+      "R2": 0.9531036229921994,
+      "Directional_Accuracy_%": 51.02040816326531
+    },
+    {
+      "Model": "RandomForest",
+      "MAE": 67.984061709053,
+      "RMSE": 99.93966203774113,
+      "MAPE_%": 1.501178546504796,
+      "R2": 0.9508787529161442,
+      "Directional_Accuracy_%": 48.97959183673469
+    }
+  ],
+  "latest_close": 4839.2001953125,
+  "forecast_last_value": 5096.091759345366
+}

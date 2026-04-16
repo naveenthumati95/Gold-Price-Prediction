@@ -10,7 +10,7 @@ The project downloads online market data, builds forecasting features, compares 
 - **Pipeline:** Data download → EDA → feature engineering → model training/evaluation → 30-day forecast
 - **Deliverables included:**
   - `gold_price_prediction_4y_complete.ipynb` (main notebook)
-  - `gold_price_prediction_report.tex` (full LaTeX report)
+  - `project_report.tex` (full LaTeX report)
   - `artifacts/` (metrics, CSVs, and plots)
 
 ## Repository Structure
@@ -26,9 +26,8 @@ The project downloads online market data, builds forecasting features, compares 
 │   ├── test_predictions.csv
 │   ├── test_results.csv
 │   └── validation_results.csv
-├── gold_commodity_prediction_4y_LSTM.ipynb      # older notebook
 ├── gold_price_prediction_4y_complete.ipynb      # primary complete notebook
-└── gold_price_prediction_report.tex             # final report
+└── project_report.tex             # final report
 ```
 
 ## Model Comparison (Holdout Test)
@@ -73,14 +72,6 @@ jupyter nbconvert --to notebook --execute --inplace \
 ```
 
 This command refreshes all outputs and regenerates files in `artifacts/`.
-
-## Build the LaTeX Report
-
-If you have a LaTeX distribution installed:
-
-```bash
-pdflatex gold_price_prediction_report.tex
-```
 
 ## Visual Outputs
 
